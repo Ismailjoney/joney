@@ -7,15 +7,17 @@ import Contact from '../Contact/Contact';
 import Service from '../Service/Service';
  
 
+
 const Home = () => {
     return (
         <div className='mt-30'>
             <Banner></Banner>
             <About></About>
             <Service></Service>
-           <Exprience></Exprience>
-           <Projects></Projects>
-           <Contact></Contact>
+            <Exprience></Exprience>
+            <Projects></Projects>
+            <Contact></Contact>
+             
         </div>
     );
 };

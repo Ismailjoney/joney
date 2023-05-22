@@ -21,7 +21,6 @@ const MainLayout = () => {
                         <li><a><FaUserAlt className='w-8 h-8 text-amber-400'/> </a></li>
                         <li><a><FaServicestack className='w-8 h-8 text-amber-400'/> </a></li>
                     </ul>
-
                 </div>
             </div>
         </div>

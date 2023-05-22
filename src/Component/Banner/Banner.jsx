@@ -4,22 +4,22 @@ import {  FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/f
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen  ">
+        <div className="hero mt-20 lg:min-h-screen lg:mt-0 ">
             <div className="hero-content text-center">
                 <div className="">
                     <div className="avatar">
-                        <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                        <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2  ">
                             <img src={joney} />
                         </div>
                     </div>
-                    <h1 className="text-3xl font-bold text-white">Mohammad Ismail Hossen Joney</h1>
-                    <p className="py-2 text-2xl text-white">I'm a Front-end Developer</p>
+                    <h1 className="text-xl font-bold text-white gradient-text lg:text-4xl">Mohammad Ismail Hossen Joney</h1>
+                    <p className="py-2 text-xl text-white gradient-text lg:text-4xl">  Front-end Developer</p>
                      <div>
-                        <ul className='flex justify-center align-items-center  '>
-                            <li><a href=""><FaFacebookF className='w-8 h-8 mx-2 text-amber-400 hover:border rounded'/></a></li>
-                            <li><a href=""><FaLinkedinIn className='w-8 h-8 mx-2 text-amber-400 hover:border rounded'/></a></li>
-                            <li><a href=""><FaInstagram className='w-8 h-8 mx-2 text-amber-400 hover:border rounded'/></a></li>
-                            <li><a href=""><FaGithub className='w-8 h-8 mx-2 text-amber-400 hover:border rounded'/></a></li>
+                        <ul className='flex justify-center align-items-center mt-2'>
+                            <li><a href="https://www.facebook.com/profile.php?id=100009195877064"><FaFacebookF className='w-8 h-8 mx-2  text-amber-400 hover:border rounded'/></a></li>
+                            <li><a href="https://www.linkedin.com/in/mohammad-ismail-hossen-joney-2b8584259/"><FaLinkedinIn className='w-8 h-8 mx-2 text-amber-400 hover:border rounded'/></a></li>
+                            <li><a href="https://www.instagram.com/ismail.joney/"><FaInstagram className='w-8 h-8 mx-2 text-amber-400 hover:border rounded'/></a></li>
+                            <li><a href="https://github.com/Ismailjoney"><FaGithub className='w-8 h-8 mx-2 text-amber-400 hover:border rounded'/></a></li>
                         </ul>
                         </div>
                 </div>
