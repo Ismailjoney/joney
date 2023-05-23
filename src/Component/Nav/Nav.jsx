@@ -3,7 +3,7 @@ import {  FaServer } from "react-icons/fa";
 
 const Nav = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar ">
              
             <div className="flex-none gap-2">
                 <div className="dropdown dropdown-end">
@@ -13,7 +13,7 @@ const Nav = () => {
                         </div>
                     </label> */}
                      <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden"><FaServer/></label>
-                    <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                    <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content  rounded-box w-52">
                         <li>
                             <a className="justify-between">
                                 Profile

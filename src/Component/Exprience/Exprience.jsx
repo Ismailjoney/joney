@@ -2,7 +2,7 @@ import React from 'react';
 
 const Exprience = () => {
     return (
-        <div className='mt-10'>
+        <div id="skill" className='mt-10'>
             <h2 className='my-14 text-3xl font-bold text-amber-300'>Skills</h2>
             <div className='grid grid-cols-1 gap-6 justify-items-center align-items-center lg:grid-cols-4'>
                 <div  >

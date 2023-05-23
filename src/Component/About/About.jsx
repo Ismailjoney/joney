@@ -6,7 +6,7 @@ const About = () => {
         window.location.href = `https://drive.google.com/file/d/1fr3Rm7w5i_gJcRqsAUr9quMhbki-65yU/view?usp=share_link`
     }
     return (
-        <div>
+        <div id='contact'>
             <h2 className='my-14 text-3xl font-bold text-amber-300'>About me</h2>
             <div className='grid grid-cols-1 gap-6 justify-items-center align-items-center lg:grid-cols-2 '>
                  

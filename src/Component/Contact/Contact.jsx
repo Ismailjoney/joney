@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
+        <div id="mail" className='my-20'>
             <h2 className='my-14 text-3xl font-bold text-amber-300'>Get In Touch</h2>
 
             <div className="grid grid-cols-1 gap-6 justify-items-center align-items-center lg:grid-cols-2">
