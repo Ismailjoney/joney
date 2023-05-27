@@ -1,15 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import ProjectDetails from './ProjectDetails';
+import { useQuery } from '@tanstack/react-query';
+import Loading from '../../Shared/Loading';
 
 const Projects = () => {
-    const [projects, setProjects] = useState([])
     const [showAllData, setShowAllData] = useState(false);
 
-    useEffect(() => {
-        fetch(`http://localhost:5000/projects`)
-            .then(res => res.json())
-            .then(data => setProjects(data))
-    }, [])
+     const {data : projects = [], isLoading} = useQuery({
+        queryKey : ['projects'],
+        queryFn :  async () => {
+            const res = await fetch(`http://localhost:5000/projects`)
+            const data =await res.json()
+            return data;
+        }
+     })
+     if(isLoading){
+        return <Loading></Loading>
+     }
+
+    
 
     const handleButtonClick = () => {
         setShowAllData(true);
@@ -18,7 +27,7 @@ const Projects = () => {
     return (
         <div id="project" className='mt-10'>
             <h2 className='my-14 text-3xl font-bold text-amber-300'>Projects</h2>
-            <div className='grid grid-cols-1  justify-items-center gap-8 md:grid-cols-2  lg:grid-cols-3' >
+            <div className='grid grid-cols-1  justify-items-center gap-6 md:grid-cols-2  md:gap-8 lg:grid-cols-3 lg:gap-6 ' >
                 {
                     projects.slice(0, showAllData ? projects.length : 3).map(project => <ProjectDetails
                         key={project._id}

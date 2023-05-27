@@ -6,7 +6,7 @@
         "project_Details": " ",
         "live_link": "https://doctors-portal-5a67b.web.app/",
         "client_link": "https://github.com/Ismailjoney/doctors-portal-client",
-        "server_link": "https://github.com/Ismailjoney/doctors-portal--server"
+        "create" : ["react", "mongodb", "firebase", "node", "express"]
     }, 
     {
         "project_name": "Resale Product",
@@ -15,7 +15,7 @@
         "project_Details": "",
         "live_link": "https://resale-product-670ba.web.app/",
         "client_link": "https://github.com/Ismailjoney/reused-product-client",
-        "server_link": ""
+        "create" : ["react", "mongodb", "firebase", "node", "express"]
     },
     {
         "project_name": "Service Review",
@@ -24,7 +24,7 @@
         "project_Details": "",
         "live_link": "https://service-review-website-5c337.web.app/",
         "client_link": "https://github.com/Ismailjoney/service-review--website",
-        "server_link": "https://github.com/Ismailjoney/service-review--website-server"
+        "create" : ["react", "mongodb", "firebase", "node", "express"]
     },
     {
         "project_name": "Genious Car",
@@ -33,7 +33,7 @@
         "project_Details": "",
         "live_link": "https://genius-car-37348.web.app/",
         "client_link": "https://github.com/Ismailjoney/genious-car-client-side",
-        "server_link": "https://github.com/Ismailjoney/genious-car-server"
+        "create" : ["react", "mongodb", "firebase", "node", "express"]
     },
     {
         "project_name": "Quiz Web Application",
@@ -42,7 +42,7 @@
         "project_Details": "",
         "live_link": "https://webapplication-a8069.web.app/",
         "client_link":  "https://github.com/Ismailjoney/webapplication-client-side",
-        "server_link": "https://github.com/Ismailjoney/webapplication-server-side"
+        "create" : ["react", "mongodb", "firebase", "node", "express"]
     },
     {
         "project_name": "Task maneger",
@@ -51,6 +51,6 @@
         "project_Details": "",
         "live_link": "https://hellwetsoft.web.app/",
         "client_link":  "https://github.com/Ismailjoney/hellwet-soft-task-client",
-        "server_link": "https://github.com/Ismailjoney/hellwet-soft-task-server"
+        "create" : ["react", "mongodb", "firebase", "node", "express"]
     }
 ]
