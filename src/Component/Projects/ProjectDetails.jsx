@@ -17,16 +17,16 @@ const ProjectDetails = ({ project }) => {
                     <div className="grid justify-items-center gap-2">
                         <div>
                             <Link to={client_link}>
-                                <button className="btn btn-xs btn-outline  m-2  ">Live Link</button>
+                                <button className="btn btn-xs btn-outline  m-2  ">Github </button>
                             </Link>
                             <Link to={live_link}>
-                                <button className="btn btn-xs btn-outline  m-2">Github</button>
+                                <button className="btn btn-xs btn-outline  m-2">Live Link</button>
                             </Link>
                         </div>
-                        <div className='grid grid-cols-3 gap-2  justify-between  items-center text-slate-50 '>
+                        <div className='grid grid-cols-3 gap-2  justify-between  items-center '>
                             {
-                                create.map(createTescnilogy =>
-                                    <p className='text-red'>#{createTescnilogy}</p>
+                                create.map(createTescnilogy  =>
+                                    <p className='   text-blue-50'>#{createTescnilogy}</p>
                                 )
                             }
                         </div>

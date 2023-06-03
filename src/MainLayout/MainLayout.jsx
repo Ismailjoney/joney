@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Nav from '../Component/Nav/Nav';
 import { FaHome, FaUserAlt,   FaShoppingBag, FaPenAlt, FaProjectDiagram, FaMailBulk } from "react-icons/fa";
+import Footer from '../Component/Projects/Footer/Footer';
 
 const MainLayout = () => {
     return (

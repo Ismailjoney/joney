@@ -5,6 +5,7 @@ import Exprience from '../Exprience/Exprience';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Service from '../Service/Service';
+import Footer from '../Projects/Footer/Footer';
  
 
 
@@ -17,6 +18,7 @@ const Home = () => {
             <Exprience></Exprience>
             <Projects></Projects>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };

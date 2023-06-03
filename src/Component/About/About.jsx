@@ -1,5 +1,5 @@
 import React from 'react';
-import joneytwo from '../../assets/joneytwo.png'
+
 
 const About = () => {
     const handdleDownLoadResume = () => {
@@ -7,14 +7,16 @@ const About = () => {
     }
     return (
         <div id='contact'>
-            <h2 className='my-14 text-3xl font-bold text-amber-300'>About me</h2>
+            <h2 className='my-6 text-3xl font-bold text-amber-300'>About me</h2>
             <div className='grid grid-cols-1 gap-6 justify-items-center align-items-center lg:grid-cols-2 '>
-                 
+
                 <div>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit reprehenderit molestiae nisi nemo consequatur. Modi accusamus doloremque natus reprehenderit facilis, sapiente fugit earum est alias reiciendis aspernatur! Ullam, laborum cum?
+                    <p className='text-base'>
+                        
+                        I am a MERN Stack developer who learned and was certified by Programming Hero Bangladesh. I have done many full-stack projects with React and Node js. I am an expert in Html5, CSS3, Bootstrap5, React Bootstrap,   JavaScript es6, React JS, firebase Authentication system. I Know Express JS, Node JS, MongoDB and I allso work in jwt token.
                     </p>
-                    <button className="btn btn-outline btn-warning mt-2" onClick={handdleDownLoadResume}>Download Resume</button>
+
+                    <button className="btn btn-outline btn-warning mt-4" onClick={handdleDownLoadResume}>Download Resume</button>
                 </div>
             </div>
         </div>
